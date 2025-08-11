@@ -1,28 +1,32 @@
-# Comptia-Security-PBQ-Flashcards
+# Security+ PBQ & Acronym Drill App
 
-Interactive CompTIA Security+ PBQ practice app built with Vite, React, and Tailwind CSS.
+An interactive, browser-based study tool designed to help learners master CompTIA Security+ (SY0-701) Performance-Based Questions (PBQs) and memorize key exam acronyms.
 
-## Local development
+## This app includes:
 
-```bash
-npm install
-npm run dev
-```
+- 18 PBQs covering networking, cryptography, identity & access, risk management, cloud security, and more.
+- Interactive flashcard system with a searchable list of high-yield Security+ acronyms.
+- Instant feedback on answers to reinforce correct concepts.
+- Realistic question styles that mimic the actual exam’s PBQ format.
+- Fully responsive UI built with React and Tailwind CSS.
 
-## Production build
+## Features:
 
-```bash
-npm run build
-npm run preview
-```
+- Practice firewall & ACL configuration
+- Network design & subnetting exercises
+- PKI, crypto functions, & TLS handshake order
+- Incident response, risk metrics, and backup strategies
+- SIEM query builder and log analysis challenges
+- Wi-Fi security configuration
+- Secure remote access setups
+- Cloud shared responsibility and deployment models
+- Searchable acronym flashcard library
 
-## Deploying to Netlify
-- Build command: `npm run build`
-- Publish directory: `dist`
+Perfect for students preparing for the CompTIA Security+ exam who want hands-on practice and fast recall of key terms.
 
-### Netlify Drop (quickest)
-Drag the `dist/` folder onto https://app.netlify.com/drop
+## Tech Stack:
 
-### Git-connected (recommended)
-Connect the GitHub repo in Netlify and set the build/publish settings above.
+- React + Vite (Frontend)
+- Tailwind CSS (Styling)
+- Deployable on Vercel for instant sharing
 
